@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.jumbotron {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+.calculator {
+  text-align: center;
+}
+
+.inputs {
+  margin: 10px;
+}
+
+.calcBtn {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calcBtn:hover {
+  background-color: #45a049;
+}
+
+.results {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #2196f3;
+}
+
+.message {
+  margin-top: 10px;
+}
