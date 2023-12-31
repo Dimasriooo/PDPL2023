@@ -23,7 +23,7 @@ function calculateBMI() {
     } else if (bmi >= 25 && bmi <= 29.9) {
         message = "Berat badan berlebih, perlu perhatian.";
     } else {
-        message = "Obesitas, segera konsultasi ke dokter.";
+        message = "Berat badan anda Obesitas, segera konsultasi ke dokter dan dengarkan saran dokter.";
     }
 
     document.getElementById("message").innerHTML = message;

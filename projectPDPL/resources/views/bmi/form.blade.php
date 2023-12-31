@@ -11,6 +11,19 @@
         <div class="jumbotron">
             <h2 style="text-align:center">BMI Kalkulator</h2>
         </div>
+        <div class="form-group row">
+            <label class="col-4">Jenis Kelamin</label> 
+            <div class="col-8">
+              <div class="custom-control custom-radio custom-control-inline">
+                <input name="radio" id="radio_0" type="radio" class="custom-control-input" value="perempuan"> 
+                <label for="radio_0" class="custom-control-label">perempuan</label>
+              </div>
+              <div class="custom-control custom-radio custom-control-inline">
+                <input name="radio" id="radio_1" type="radio" class="custom-control-input" value="laki-laki"> 
+                <label for="radio_1" class="custom-control-label">laki-laki</label>
+              </div>
+            </div>
+          </div>
         <div class="calculator">
             <div class="inputs">
                 <label for="height">Tinggi (CM): </label>
