@@ -12,7 +12,7 @@ body {
 }
 
 .jumbotron {
-  background-color: #f0f0f0;
+  background-color: blue;
   padding: 10px;
   text-align: center;
 }
@@ -27,7 +27,7 @@ body {
 
 .calcBtn {
   padding: 10px;
-  background-color: #4caf50;
+  background-color: blue;
   color: white;
   border: none;
   border-radius: 4px;
@@ -47,3 +47,5 @@ body {
 .message {
   margin-top: 10px;
 }
+
+
