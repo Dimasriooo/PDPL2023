@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\BMIController;
+use App\Http\Controllers\BMICalculatorController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,4 +18,5 @@ Route::get('/', function () {
     return view('bmi.form');
 });
 
-route::get('/create', [BMIController::class, 'create'])->name('produk.create');
+Route::get('/calculate-metric-bmi', [BMICalculatorController::class, 'calculateMetricBMI']);
+Route::get('/calculate-imperial-bmi', [BMICalculatorController::class, 'calculateImperialBMI']);
